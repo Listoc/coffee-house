@@ -91,3 +91,35 @@ body {
 }
 
 /* HEADER STYLES END */
+
+/* HOME STYLES START */
+
+.home {
+  background: url(img/hero.png) center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 110px;
+  padding-top: 267px;
+  padding-bottom: 250px;
+  text-align: center;
+}
+
+.home__text {
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 89px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.home__text::after {
+  content: "";
+  width: 80px;
+  height: 10px;
+  display: block;
+  margin: 0 auto;
+  margin-top: 7px;
+  background: #817070;
+}
+
+/* HOME STYLES END */
