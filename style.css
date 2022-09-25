@@ -267,3 +267,19 @@ body {
 }
 
 /* CONTACT STYLES END */
+
+/* FOOTER STYLES START */
+
+.footer {
+  text-align: center;
+
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 30px;
+  text-transform: uppercase;
+
+  padding-top: 29px;
+  padding-bottom: 14px;
+}
+
+/* FOOTER STYLES END */
