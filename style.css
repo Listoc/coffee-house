@@ -46,6 +46,14 @@ body {
   font-style: normal;
 }
 
+.heading {
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 53px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
 /* HEADER STYLES START */
 
 .header {
@@ -123,3 +131,34 @@ body {
 }
 
 /* HOME STYLES END */
+
+/* STROY STYLES START */
+
+.story {
+  padding-top: 60px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 60px;
+}
+
+.story__content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 60px;
+  margin-right: 40px;
+}
+
+.story__image {
+  flex-basis: 600px;
+  margin-right: 40px;
+}
+
+.story__text {
+  flex-basis: 600px;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+/* STORY STYLES END */
