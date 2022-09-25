@@ -162,3 +162,53 @@ body {
 }
 
 /* STORY STYLES END */
+
+/* BLOG STYLES START */
+
+.blog {
+  padding-top: 60px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 65px;
+  background: #EFEFEF;
+}
+
+.blog__list {
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  max-width: 1235px;
+  margin-top: 60px;
+}
+
+.blog__card {
+  flex-basis: 365px;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 46px;
+
+  background-color: #FFFFFF;
+}
+
+.blog__card_header {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 36px;
+  margin-bottom: 24px;
+}
+
+.blog__card_image {
+  max-width: 325px;
+  margin-bottom: 24px;
+}
+
+.blog__card_text {
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 27px;
+}
+
+/* BLOG STYLES END */
