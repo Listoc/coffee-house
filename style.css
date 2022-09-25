@@ -110,6 +110,7 @@ body {
   padding-top: 267px;
   padding-bottom: 250px;
   text-align: center;
+  scroll-margin-top: 110px;
 }
 
 .home__text {
@@ -139,6 +140,7 @@ body {
   padding-left: 20px;
   padding-right: 20px;
   padding-bottom: 60px;
+  scroll-margin-top: 110px;
 }
 
 .story__content {
@@ -171,6 +173,7 @@ body {
   padding-right: 20px;
   padding-bottom: 65px;
   background: #EFEFEF;
+  scroll-margin-top: 110px;
 }
 
 .blog__list {
